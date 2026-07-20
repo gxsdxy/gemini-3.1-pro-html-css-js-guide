@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Frontend Design & Development",
   description: "A comprehensive guide to HTML5, CSS3, and JavaScript based on practical projects.",
+  base: '/gemini-3.1-pro-html-css-js-guide/',
   head: [['link', { rel: 'icon', href: '/favicon.svg' }]],
 
   locales: {
